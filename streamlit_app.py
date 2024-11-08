@@ -18,7 +18,6 @@ def generate_image(prompt):
     return image_url
 
 # Streamlit UI components
-st.title("DecentraAI Image Generator")
 prompt = st.text_input("Enter your prompt:")
 if st.button("Generate Image"):
     if prompt:
